@@ -35,7 +35,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  [Here](https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/writeup_template.md) is a template writeup for this project you can use as a guide and a starting point.  
 
-You're reading it!
+You're reading it! Caution, Most of my contrib is in the jupyter notebook in the examples folder, so I recommend to open it now. 
 
 ### Camera Calibration
 
@@ -62,7 +62,10 @@ with the camera calibration and distortion coefficients computed in the first st
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at Basic Function cell, a function called color_GD_thresh()).  Here's an example of my output for this step.  
+I used a combination thresholds in different color space to generate a binary image (thresholding steps at Basic Function cell, a function called multi_thresh()). 
+I get this idea from a blog and here is the reference:
+https://www.github.com/peter-moran/highway-lane-tracker 
+Here's an example of my output for this step.  
 
 ![alt text][image3]
 
